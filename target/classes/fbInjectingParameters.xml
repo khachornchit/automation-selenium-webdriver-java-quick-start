@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Injecting Parameters Tests" parallel="classes" thread-count="2">
+	<test name="Test 1">
+		<parameter name="language" value="en" />
+		<parameter name="browserType" value="chrome" />
+		<classes>
+			<class name="com.facebook.pagefactory.tests.fbParametersTests" />
+		</classes>
+	</test>
+</suite>

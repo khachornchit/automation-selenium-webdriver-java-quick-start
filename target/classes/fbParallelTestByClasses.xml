@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Facebook Tests" parallel="classes" thread-count="5">
+	<test name="Login Test">
+		<classes>
+			<class name="com.facebook.pagefactory.tests.fbLoginTest" />
+			<class name="com.facebook.pagefactory.tests.fbSignupTest" />
+		</classes>
+	</test>
+	<test name="Singup Test">
+		<classes>
+			<class name="com.facebook.pagefactory.tests.fbLoginTest" />
+			<class name="com.facebook.pagefactory.tests.fbSignupTest" />
+		</classes>		
+	</test>
+</suite>

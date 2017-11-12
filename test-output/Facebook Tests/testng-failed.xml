@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Facebook Tests]" parallel="classes">
+  <test name="Singup Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.facebook.pagefactory.tests.fbSignupTest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="testSignupPage"/>
+        </methods>
+      </class> <!-- com.facebook.pagefactory.tests.fbSignupTest -->
+    </classes>
+  </test> <!-- Singup Test(failed) -->
+</suite> <!-- Failed suite [Facebook Tests] -->
